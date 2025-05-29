@@ -1,0 +1,68 @@
+main{
+    
+  background-color: #41e6f2;
+  
+    
+}
+
+main.tienda {
+  width: 100%; /* O 90% si quieres dejar márgenes laterales */
+  max-width: 1400px; /* Aumenta este valor según necesites */
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #2ee9f1; /* color turquesa del fondo */
+}
+
+
+.tarjet{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 300%;
+    margin: 20px;
+    background-color: #00b56d;
+ 
+}
+
+.tarjet__item{
+    /* width: 300px; */
+    background-color: var(--color-alternativo);
+    color: var(--color-secundario);
+    margin-top: 20%;
+}
+
+.item__img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+    align-items: center;
+}
+
+.item__titulo{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.item__contenido{
+    margin: 10px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.item__btn{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    margin: 10px;
+    background-color: green;
+
+}
